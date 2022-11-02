@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    /* background-image: url(images/flag.jpg); */
+    /* background: url("./images/flag.jpg") center no-repeat; */
+    text-align: center;
+    background-color: steelblue;
+}
+
+header {
+    margin: 2rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+img {
+    border-radius: 1vh;
+    max-width: 450px;
+
+}
+
+.container {
+    display:block;
+    justify-content: flex-start;
+}
+
+.qna {
+    display:flex;
+    justify-content: flex-start;
+    margin: 1rem;
+    /* overflow: auto; */
+}
+
+.titleHead {
+    text-decoration: underline;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+p {
+    margin-left: 1rem;
+    display:flex;
+    font-size: 1rem;
+    align-items: flex-end;
+}
+
+a {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+
+footer {
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 1250px){
+    body {
+        background-color: green;
+    }
+    .main {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media(max-width: 770px){
+    body {
+        background-color: yellow;
+    }
+
+    img {
+        min-width: 200px;
+    }
+    .qna,
+    span,
+    p {
+        display: block;
+    }
+}
