@@ -1,10 +1,11 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
 }
 
+<<<<<<< HEAD
 body{
     /* background-image: url(images/flag.jpg); */
     /* background: url("./images/flag.jpg") center no-repeat; */
@@ -17,11 +18,15 @@ header {
 }
 
 .main {
+=======
+body {
+>>>>>>> button
     display: flex;
-    justify-content: center;
-    margin: 2rem;
+    flex-direction: column;
+    background-image:url(./images/flag.jpg)
 }
 
+<<<<<<< HEAD
 img {
     border-radius: 1vh;
     max-width: 450px;
@@ -41,11 +46,27 @@ img {
 }
 
 .titleHead {
+=======
+ul {
+    list-style: none;
+    padding-left:0;
+    padding-right: 2rem;
+}
+
+span {
+>>>>>>> button
     text-decoration: underline;
-    font-size: 1rem;
+    font-weight: bold;
+}
+#copy span {
+    text-decoration: none;
+}
+
+.portfolio{
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 p {
     margin-left: 1rem;
     display:flex;
@@ -87,5 +108,32 @@ footer {
     span,
     p {
         display: block;
+=======
+header,
+footer,
+main{
+    text-align:center;
+    margin: 1rem auto;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.90);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lexi {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+@media(max-width: 600px){
+    .lexi {
+        width: 300px;
+>>>>>>> button
     }
 }
